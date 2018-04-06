@@ -7,7 +7,6 @@ import torchvision.datasets as datasets
 import torchvision.transforms as transforms
 from sklearn.manifold import TSNE
 from sklearn.decomposition import PCA
-import numdifftools as nd
 import numpy as np
 import math
 import random
