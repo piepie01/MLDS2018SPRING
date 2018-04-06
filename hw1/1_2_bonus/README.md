@@ -29,5 +29,9 @@ With the format
 * ```bash
   ./data/
   ```
-
+##Plot the result
+```bash
+python3 two_d.py
+```
   
+
