@@ -56,4 +56,8 @@ With the format, for example
 * ```bash
   ./data/
   ```
-
+##Plot the result
+```bash
+python3 pic_weight.py
+python3 pic_layer2_weight.py
+```
