@@ -18,7 +18,7 @@ hidden_size2 = 15
 hidden_size3 = 15
 hidden_size4 = 15
 output_size = 1
-num_epochs = 700
+num_epochs = 600
 learning_rate = 0.001
 
 #####Deal traindata#####
