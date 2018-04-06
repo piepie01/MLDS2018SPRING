@@ -7,14 +7,14 @@ python3 main.py
 * After running the task above, the result will generate in
 
 ```
-acc/0 weight/0 weight/layer_0
-acc/1 weight/1 weight/layer_1
-acc/2 weight/2 weight/layer_2
-acc/3 weight/3 weight/layer_3
-acc/4 weight/4 weight/layer_4
-acc/5 weight/5 weight/layer_5
-acc/6 weight/6 weight/layer_6
-acc/7 weight/7 weight/layer_7
+loss/0 weight/0 weight/layer_0
+loss/1 weight/1 weight/layer_1
+loss/2 weight/2 weight/layer_2
+loss/3 weight/3 weight/layer_3
+loss/4 weight/4 weight/layer_4
+loss/5 weight/5 weight/layer_5
+loss/6 weight/6 weight/layer_6
+loss/7 weight/7 weight/layer_7
 ```
 
 * For example, **weight/0** is whole model's data and **weight/layer_0** is layer2's data
@@ -22,10 +22,10 @@ acc/7 weight/7 weight/layer_7
 With the format, for example
 
 ```
-#in acc/0
-[acc]
-[acc]
-[acc]
+#in loss/0
+[loss]
+[loss]
+[loss]
 .
 .
 .

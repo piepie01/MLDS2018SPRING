@@ -109,7 +109,7 @@ layer2_da = layer2_pca.fit_transform(layer2_weight)
 for i in range(8):
     f_w = open('weight/'+str(i),'w')
     f_2 = open('weight/layer_'+str(i),'w')
-    f_a = open('acc/'+str(i),'w')
+    f_a = open('loss/'+str(i),'w')
     for j in range(i*num_epochs,(i+1)*num_epochs):
         print(whole_da[j][0],whole_da[j][1],file = f_w)
         print(layer2_da[j][0],layer2_da[j][1],file = f_2)

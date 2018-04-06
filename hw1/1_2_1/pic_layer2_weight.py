@@ -25,7 +25,7 @@ for i in range(8):
     data.append(tmp)
 acc = []
 for i in range(8):
-    tmp = get_acc('acc/'+str(i))
+    tmp = get_acc('loss/'+str(i))
     acc.append(tmp)
 
 
