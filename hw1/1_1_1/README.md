@@ -49,3 +49,8 @@ with the format, for example
   ./data/
   ```
 
+###Plot the result
+```bash
+python3 pic_loss.py
+python3 pic_predict.py
+```
