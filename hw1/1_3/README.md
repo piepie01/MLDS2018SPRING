@@ -7,6 +7,8 @@
 		./shuffle_trainloss
 		./shuffle_testacc
 		./shuffle_testloss
+    plot the result
+        python3 Shufflegraph.py
 
 #Param : 1-3-2
 
@@ -17,6 +19,8 @@
 		./difparam_testloss
 		./difparam_trainacc
 		./difparam_testacc
+    plot the result
+        python3 PARAMgraph.py
 
 #Interpolation : 1-3-3-1
 
@@ -27,6 +31,8 @@
 		./interpolar_testloss
 		./interpolar_trainacc
 		./interpolar_testacc
+    plot the result
+        python3 INTERPOLARgraph.py
 
 #Sensitivity : 1-3-3-2	
 
@@ -38,3 +44,5 @@
 		./difapproach_trainacc
 		./difapproach_testacc
 		./difapproach_sensitivity
+    plot the result
+        python3 SENSITIVITYgraph.py
