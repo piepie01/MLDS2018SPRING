@@ -38,3 +38,8 @@ With the format
 * ```bash
   ./data/
   ```
+##Plot the result
+```bash
+python3 pic_norm.py loss
+python3 pic_norm.py norm
+```
