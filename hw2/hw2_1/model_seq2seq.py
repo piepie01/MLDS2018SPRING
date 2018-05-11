@@ -15,7 +15,7 @@ import torch.nn as nn
 from ultra_model import Encoder, Decoder
 
 
-online = 1
+online = 0
 post = sys.stdout
 if online == 1:
     post = open('/home/piepie01/public_html/123/output1','w')
