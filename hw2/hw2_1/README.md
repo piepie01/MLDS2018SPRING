@@ -31,4 +31,4 @@ python3 model_seq2seq.py [training data directory such as (MLDS_hw2_1_data)]
 
 * File relation
   * Training file : model_seq2seq.py, dataset.py, ultra_model.py
-  * Training file : predict.py, dataset.py, ultra_model.py
+  * Testing file : predict.py, dataset.py, ultra_model.py
