@@ -21,7 +21,7 @@ if online == 1:
     post = open('/home/piepie01/public_html/123/output1','w')
 
 sent_limit = 50
-batch_size = 16
+batch_size = 48
 enco_input_size = 4096
 enco_hidden_size = 256
 deco_input_size = 1024
