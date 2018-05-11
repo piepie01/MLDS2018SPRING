@@ -28,7 +28,7 @@ deco_input_size = 1024
 deco_hidden_size = 512
 embed_size = 512
 learning_rate = 1e-3
-epochs = 100
+epochs = 30
 model_name = 'model8.th'
 class clr_video(Dataset):
     def __init__(self,train_X, train_Y, video_name, word2index):
@@ -144,6 +144,7 @@ def main(argv):
                 print("Sample output :",index2sent(oup.cpu().data[sent_ind].numpy(), index2word),file = post)
                 post.flush()
             step_count+=1
+        '''
         predict_file = open('ans.txt','w')
         for x,name in test_data_loader:
             #print(name)
@@ -171,7 +172,8 @@ def main(argv):
         print('----------------',float(bl.decode('ascii')[22:-1]),'----------------', file = post)
         score = float(bl.decode('ascii')[23:-1])
         if score > 0.66 and epoch > 20:
-            torch.save({'encoder': encoder.state_dict(),'decoder': decoder.state_dict()},'save/'+model_name)
+        '''
+    torch.save({'encoder': encoder.state_dict(),'decoder': decoder.state_dict()},'save/'+model_name)
 
 if __name__ == "__main__":
     main(sys.argv)
