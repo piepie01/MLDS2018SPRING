@@ -27,7 +27,7 @@ times = '9'
 model_name = 'model'+times+'.th'
 
 
-online = 1
+online = 0
 post = sys.stdout
 if online == 1:
     post = open('/home/piepie01/public_html/123/output1','w')
