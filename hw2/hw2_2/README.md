@@ -5,6 +5,7 @@
 ```bash
 pytorch 0.3.0/ torchvision 0.2.0
 numpy 1.14.3
+termcolor
 
 standard library:
 sys
@@ -13,7 +14,6 @@ copy
 random
 pickle
 json
-termcolor
 ```
 
 * Training
