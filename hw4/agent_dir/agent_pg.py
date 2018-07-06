@@ -86,7 +86,7 @@ class Agent_PG(Agent):
         #self.opt = torch.optim.RMSprop(self.net.parameters(), lr = self.lr)
 
 
-    def init_game_setting(self, seed):
+    def init_game_setting(self):
         """
 
         Testing function will call this function at the begining of new game
@@ -102,7 +102,7 @@ class Agent_PG(Agent):
             if self.cuda:
                 torch.cuda.manual_seed(7122)
             else:
-                torch.manual_seed(int(seed))
+                torch.manual_seed(127)
         self.last = None
 
         pass
